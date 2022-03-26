@@ -1,1 +1,1 @@
-# lectii_CI-CD
+# Repositoriu creat pentru lectii_CI-CD
