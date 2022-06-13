@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: demo-server
+    runs-on: docker
 
 
     steps:
@@ -22,5 +22,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Pushing from GitHub
         run: |
-          cd ~/Containnerization-LEMP
+          cd /var/www/php
           git pull 
